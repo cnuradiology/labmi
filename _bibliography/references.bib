@@ -1,0 +1,68 @@
+---
+---
+References
+==========
+
+@ARTICLE{10.3389/fonc.2021.744460,
+
+AUTHOR={Lee, Hyo-jae  and Nguyen, Anh-Tien  and Ki, So Yeon  and Lee, Jong Eun  and Do, Luu-Ngoc  and Park, Min Ho  and Lee, Ji Shin  and Kim, Hye Jung  and Park, Ilwoo  and Lim, Hyo Soon },
+
+TITLE={Classification of MR-Detected Additional Lesions in Patients With Breast Cancer Using a Combination of Radiomics Analysis and Machine Learning},
+
+JOURNAL={Frontiers in Oncology},
+
+VOLUME={11},
+
+YEAR={2021},
+
+URL={https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2021.744460},
+
+DOI={10.3389/fonc.2021.744460},
+
+ISSN={2234-943X},
+
+ABSTRACT={<sec><title>Objective</title><p>This study was conducted in order to investigate the feasibility of using radiomics analysis (RA) with machine learning algorithms based on breast magnetic resonance (MR) images for discriminating malignant from benign MR-detected additional lesions in patients with primary breast cancer.</p></sec><sec><title>Materials and Methods</title><p>One hundred seventy-four MR-detected additional lesions (benign, <italic>n</italic> = 86; malignancy, <italic>n</italic> = 88) from 158 patients with ipsilateral primary breast cancer from a tertiary medical center were included in this retrospective study. The entire data were randomly split to training (80%) and independent test sets (20%). In addition, 25 patients (benign, <italic>n</italic> = 21; malignancy, <italic>n</italic> = 15) from another tertiary medical center were included for the external test. Radiomics features that were extracted from three regions-of-interest (ROIs; intratumor, peritumor, combined) using fat-saturated T1-weighted images obtained by subtracting pre- from postcontrast images (SUB) and T2-weighted image (T2) were utilized to train the support vector machine for the binary classification. A decision tree method was utilized to build a classifier model using clinical imaging interpretation (CII) features assessed by radiologists. Area under the receiver operating characteristic curve (AUROC), accuracy, sensitivity, and specificity were used to compare the diagnostic performance.</p></sec><sec><title>Results</title><p>The RA models trained using radiomics features from the intratumor-ROI showed comparable performance to the CII model (accuracy, AUROC: 73.3%, 69.6% for the SUB RA model; 70.0%, 75.1% for the T2 RA model; 73.3%, 72.0% for the CII model). The diagnostic performance increased when the radiomics and CII features were combined to build a fusion model. The fusion model that combines the CII features and radiomics features from multiparametric MRI data demonstrated the highest performance with an accuracy of 86.7% and an AUROC of 91.1%. The external test showed a similar pattern where the fusion models demonstrated higher levels of performance compared with the RA- or CII-only models. The accuracy and AUROC of the SUB+T2 RA+CII model in the external test were 80.6% and 91.4%, respectively.</p></sec><sec><title>Conclusion</title><p>Our study demonstrated the feasibility of using RA with machine learning approach based on multiparametric MRI for quantitatively characterizing MR-detected additional lesions. The fusion model demonstrated an improved diagnostic performance over the models trained with either RA or CII alone.</p></sec>}}
+
+@article{HAN20181529,
+title = {Classification of the Clinical Images for Benign and Malignant Cutaneous Tumors Using a Deep Learning Algorithm},
+journal = {Journal of Investigative Dermatology},
+volume = {138},
+number = {7},
+pages = {1529-1538},
+year = {2018},
+issn = {0022-202X},
+doi = {https://doi.org/10.1016/j.jid.2018.01.028},
+url = {https://www.sciencedirect.com/science/article/pii/S0022202X18301118},
+author = {Seung Seog Han and Myoung Shin Kim and Woohyung Lim and Gyeong Hun Park and Ilwoo Park and Sung Eun Chang},
+abstract = {We tested the use of a deep learning algorithm to classify the clinical images of 12 skin diseases—basal cell carcinoma, squamous cell carcinoma, intraepithelial carcinoma, actinic keratosis, seborrheic keratosis, malignant melanoma, melanocytic nevus, lentigo, pyogenic granuloma, hemangioma, dermatofibroma, and wart. The convolutional neural network (Microsoft ResNet-152 model; Microsoft Research Asia, Beijing, China) was fine-tuned with images from the training portion of the Asan dataset, MED-NODE dataset, and atlas site images (19,398 images in total). The trained model was validated with the testing portion of the Asan, Hallym and Edinburgh datasets. With the Asan dataset, the area under the curve for the diagnosis of basal cell carcinoma, squamous cell carcinoma, intraepithelial carcinoma, and melanoma was 0.96 ± 0.01, 0.83 ± 0.01, 0.82 ± 0.02, and 0.96 ± 0.00, respectively. With the Edinburgh dataset, the area under the curve for the corresponding diseases was 0.90 ± 0.01, 0.91 ± 0.01, 0.83 ± 0.01, and 0.88 ± 0.01, respectively. With the Hallym dataset, the sensitivity for basal cell carcinoma diagnosis was 87.1% ± 6.0%. The tested algorithm performance with 480 Asan and Edinburgh images was comparable to that of 16 dermatologists. To improve the performance of convolutional neural network, additional images with a broader range of ages and ethnicities should be collected.}
+}
+
+@article{HAN20201753,
+title = {Augmented Intelligence Dermatology: Deep Neural Networks Empower Medical Professionals in Diagnosing Skin Cancer and Predicting Treatment Options for 134 Skin Disorders},
+journal = {Journal of Investigative Dermatology},
+volume = {140},
+number = {9},
+pages = {1753-1761},
+year = {2020},
+issn = {0022-202X},
+doi = {https://doi.org/10.1016/j.jid.2020.01.019},
+url = {https://www.sciencedirect.com/science/article/pii/S0022202X20301366},
+author = {Seung Seog Han and Ilwoo Park and Sung {Eun Chang} and Woohyung Lim and Myoung Shin Kim and Gyeong Hun Park and Je Byeong Chae and Chang Hun Huh and Jung-Im Na},
+abstract = {Although deep learning algorithms have demonstrated expert-level performance, previous efforts were mostly binary classifications of limited disorders. We trained an algorithm with 220,680 images of 174 disorders and validated it using Edinburgh (1,300 images; 10 disorders) and SNU datasets (2,201 images; 134 disorders). The algorithm could accurately predict malignancy, suggest primary treatment options, render multi-class classification among 134 disorders, and improve the performance of medical professionals. The area under the curves for malignancy detection were 0.928 ± 0.002 (Edinburgh) and 0.937 ± 0.004 (SNU). The area under the curves of primary treatment suggestion (SNU) were 0.828 ± 0.012, 0.885 ± 0.006, 0.885 ± 0.006, and 0.918 ± 0.006 for steroids, antibiotics, antivirals, and antifungals, respectively. For multi-class classification, the mean top-1 and top-5 accuracies were 56.7 ± 1.6% and 92.0 ± 1.1% (Edinburgh) and 44.8 ± 1.2% and 78.1 ± 0.3% (SNU), respectively. With the assistance of our algorithm, the sensitivity and specificity of 47 clinicians (21 dermatologists and 26 dermatology residents) for malignancy prediction (SNU; 240 images) were improved by 12.1% (P < 0.0001) and 1.1% (P < 0.0001), respectively. The malignancy prediction sensitivity of 23 non-medical professionals was significantly increased by 83.8% (P < 0.0001). The top-1 and top-3 accuracies of four doctors in the multi-class classification of 134 diseases (SNU; 2,201 images) were increased by 7.0% (P = 0.045) and 10.1% (P = 0.0020), respectively. The results suggest that our algorithm may serve as augmented intelligence that can empower medical professionals in diagnostic dermatology.}
+}
+
+
+@Article{diagnostics10100803,
+AUTHOR = {Do, Luu-Ngoc and Baek, Byung Hyun and Kim, Seul Kee and Yang, Hyung-Jeong and Park, Ilwoo and Yoon, Woong},
+TITLE = {Automatic Assessment of ASPECTS Using Diffusion-Weighted Imaging in Acute Ischemic Stroke Using Recurrent Residual Convolutional Neural Network},
+JOURNAL = {Diagnostics},
+VOLUME = {10},
+YEAR = {2020},
+NUMBER = {10},
+ARTICLE-NUMBER = {803},
+URL = {https://www.mdpi.com/2075-4418/10/10/803},
+PubMedID = {33050251},
+ISSN = {2075-4418},
+ABSTRACT = {The early detection and rapid quantification of acute ischemic lesions play pivotal roles in stroke management. We developed a deep learning algorithm for the automatic binary classification of the Alberta Stroke Program Early Computed Tomographic Score (ASPECTS) using diffusion-weighted imaging (DWI) in acute stroke patients. Three hundred and ninety DWI datasets with acute anterior circulation stroke were included. A classifier algorithm utilizing a recurrent residual convolutional neural network (RRCNN) was developed for classification between low (1–6) and high (7–10) DWI-ASPECTS groups. The model performance was compared with a pre-trained VGG16, Inception V3, and a 3D convolutional neural network (3DCNN). The proposed RRCNN model demonstrated higher performance than the pre-trained models and 3DCNN with an accuracy of 87.3%, AUC of 0.941, and F1-score of 0.888 for classification between the low and high DWI-ASPECTS groups. These results suggest that the deep learning algorithm developed in this study can provide a rapid assessment of DWI-ASPECTS and may serve as an ancillary tool that can assist physicians in making urgent clinical decisions.},
+DOI = {10.3390/diagnostics10100803}
+}

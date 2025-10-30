@@ -1,0 +1,41 @@
+- name: Prof. Ilwoo Park
+  photo: ilwoo.jpg
+  url: ilwoo
+  title: Principle Investigator
+  research_interests: "Prof. Ilwoo Park's research interests primarily revolve around Machine/Deep learning application to medical imaging and medical data (MRI, CT, mammography, x-ray, etc). Additionally, he explores the application of Artificial Intelligence findings in educational contexts, aiming to enhance learning and training methods."
+  fon: +82-62-220-5744
+  secretary: +82-62-220-5744
+  office: 406, 4th floor, Research Building, Chonnam National University College of Medicine, Hak-dong, Dong-gu, Gwangju
+  mail: ipark at chonnam.edu
+  project: 
+
+- name: PhD. Luu Ngoc Do
+  photo: ngoc.jpg
+  url: ngoc
+  title: Secretary and Administrative Lab Coordinator
+  research_interests: My research focuses on three connected topics:<br>1- predictive processing; <br>2- neural oscillations in speech and language comprehension; <br>3- integration of cognitive and bodily rhythms.<br> I am interested in the nature of predictive representations (e.g., sensory or motor?), and their neural implementation (plausibly, via inhibitory interneuronal activity). I think the temporal nature of speech may be dynamically encoded by the activity of neural oscillators (this is the main topic of my DFG Eigene Stelle), but not the ‘atemporal’ information about language structure. Bodily rhythms, especially changes in respiratory, heart-beat rates and eye movements, help optimize higher-order perceptual processes.
+  fon: +82-62-220-5744
+  secretary: 010-123-456
+  office: 406, 4th floor, Research Building, Chonnam National University College of Medicine, Hak-dong, Dong-gu, Gwangju
+  mail: ngoc at chonnam.edu
+  project: Kidney
+
+- name: Binh Le
+  photo: binh.jpg
+  url: binh
+  title: PhD Student
+  research_interests: My research focuses on three connected topics:<br>1- predictive processing; <br>2- neural oscillations in speech and language comprehension; <br>3- integration of cognitive and bodily rhythms.<br> I am interested in the nature of predictive representations (e.g., sensory or motor?), and their neural implementation (plausibly, via inhibitory interneuronal activity). I think the temporal nature of speech may be dynamically encoded by the activity of neural oscillators (this is the main topic of my DFG Eigene Stelle), but not the ‘atemporal’ information about language structure. Bodily rhythms, especially changes in respiratory, heart-beat rates and eye movements, help optimize higher-order perceptual processes.
+  fon: 010-123-456
+  office: 406, 4th floor, Research Building, Chonnam National University College of Medicine, Hak-dong, Dong-gu, Gwangju
+  mail: binh at chonnam.edu
+  project: Kidney
+
+- name: Quang Le
+  photo: quang.png
+  url: quang
+  title: PhD Student
+  research_interests: My professional experience in recent years has been mainly in science management and scientific coordination of national and international projects. My research interests as a computer scientist lie in the areas of information retrieval and sentiment analysis in online social platforms, as well as research data and knowledge management. I have extensive experience in the application of Natural Language Processing and Linked Open Data in the development of domain-specific knowledge graphs for national projects and international consortia.
+  fon: 010-123-456
+  office: 406, 4th floor, Research Building, Chonnam National University College of Medicine, Hak-dong, Dong-gu, Gwangju
+  mail: quang at chonnam.edu
+  project: Meningioma

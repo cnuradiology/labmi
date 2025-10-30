@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div class="page__footer-follow">
+        <ul class="social-icons">
+          {% if site.data.ui-text[site.locale].follow_label %}
+            <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+          {% endif %}
+
+          {% if site.footer.links %}
+            {% for link in site.footer.links %}
+              {% if link.label and link.url %}
+                <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+
+          {% unless site.atom_feed.hide %}
+            <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+          {% endunless %}
+        </ul>
+      </div>
+      <div class= "page__footer-copyright" > 
+        <a href=/legal>Legal Notice</a> <br>
+        <a href=/privacypolicy>Privacy Policy</a>
+      </div>
+      <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="smaller">
+        <strong>Postal and Visitor Address </strong> <br>
+      </div>
+      <div class="page__footer-copyright">
+        Dept. of AI Convergence, College of Engineering<br>
+        Dept. of Radiology, College of Medicine<br>
+        406, 4th floor, Research Building, Chonnam National University College of Medicine, Hak-dong, Dong-gu, Gwangju
+      </div>
+    </div>
+    <div class="col-md-3">
+      <img src = "../assets/images/chonnam_logo.svg" alt="Chonnam Uni Logo" style="width:auto; height:60%;"/>
+    </div>  
+  </div>
+</div>
+
+<script>
+  $(document).ready(function(){
+      var str =$(this).attr('id');
+      
+      $(".btnId").click(function(){
+          var str = $(this).attr('id');
+          var ret = str.split("_");
+          var id = ret[1];
+          $('#' + id).toggle();
+      });
+  });
+  </script>
+  
