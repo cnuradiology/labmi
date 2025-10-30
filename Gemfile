@@ -7,6 +7,7 @@ group :jekyll_plugins do
   gem 'webrick'
   gem 'bootstrap'
   gem "jemoji"
+  gem "jekyll-include-cache"
   gem "jekyll-scholar"
   gem "kramdown-parser-gfm"
   gem "jekyll-github-metadata"
